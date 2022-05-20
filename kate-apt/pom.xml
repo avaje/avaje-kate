@@ -4,7 +4,7 @@
   <parent>
     <groupId>io.avaje.kate</groupId>
     <artifactId>avaje-kate-parent</artifactId>
-    <version>0.9.1</version>
+    <version>0.9.4</version>
     <relativePath>..</relativePath>
   </parent>
 
@@ -13,7 +13,6 @@
   <description>kate annotation processors</description>
 
   <properties>
-    <avaje.inject.version>6.9</avaje.inject.version>
   </properties>
 
   <dependencies>
@@ -31,10 +30,16 @@
     </dependency>
 
     <dependency>
-      <groupId>io.ebean</groupId>
-      <artifactId>querybean-generator</artifactId>
-      <version>${ebean.version}</version>
+      <groupId>io.avaje</groupId>
+      <artifactId>avaje-http-client-generator</artifactId>
+      <version>${avaje.http.version}</version>
     </dependency>
+
+<!--    <dependency>-->
+<!--      <groupId>io.ebean</groupId>-->
+<!--      <artifactId>querybean-generator</artifactId>-->
+<!--      <version>${ebean.version}</version>-->
+<!--    </dependency>-->
 
   </dependencies>
 
