@@ -4,12 +4,12 @@
   <parent>
     <groupId>io.avaje.kate</groupId>
     <artifactId>avaje-kate-parent</artifactId>
-    <version>0.9.5</version>
+    <version>0.10</version>
   </parent>
 
   <artifactId>avaje-kate-generator</artifactId>
-  <packaging>jar</packaging>
-  <description>kate annotation processors</description>
+  <name>avaje-kate-generator</name>
+  <description>avaje kate annotation processors</description>
 
   <dependencies>
 

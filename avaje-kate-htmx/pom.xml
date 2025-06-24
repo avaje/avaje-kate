@@ -6,13 +6,11 @@
     <parent>
         <groupId>io.avaje.kate</groupId>
         <artifactId>avaje-kate-parent</artifactId>
-        <version>0.9.5</version>
+        <version>0.10</version>
     </parent>
 
     <artifactId>avaje-kate-htmx</artifactId>
-
-    <properties>
-    </properties>
+    <name>avaje-kate-htmx</name>
 
     <dependencies>
         <dependency>

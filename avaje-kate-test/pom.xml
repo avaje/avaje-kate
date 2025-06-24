@@ -4,11 +4,11 @@
   <parent>
     <groupId>io.avaje.kate</groupId>
     <artifactId>avaje-kate-parent</artifactId>
-    <version>0.9.5</version>
+    <version>0.10</version>
   </parent>
 
   <artifactId>avaje-kate-test</artifactId>
-  <packaging>jar</packaging>
+  <name>avaje-kate-test</name>
   <description>kate test dependencies</description>
 
   <dependencies>
