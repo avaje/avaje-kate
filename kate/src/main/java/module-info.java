@@ -5,7 +5,5 @@ module io.avaje.kate {
     requires transitive io.avaje.inject;
     requires transitive io.avaje.jsonb;
     requires transitive io.avaje.jex;
-    requires transitive io.avaje.jex.jetty;
-    //requires io.avaje.http.client;
 
 }

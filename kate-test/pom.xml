@@ -11,16 +11,7 @@
   <packaging>jar</packaging>
   <description>kate test dependencies</description>
 
-  <properties>
-  </properties>
-
   <dependencies>
-
-    <dependency>
-      <groupId>io.avaje</groupId>
-      <artifactId>junit</artifactId>
-      <version>${avaje.junit.version}</version>
-    </dependency>
 
     <dependency>
       <groupId>io.avaje</groupId>
@@ -36,15 +27,15 @@
 
     <dependency>
       <groupId>io.avaje</groupId>
-      <artifactId>avaje-http-client</artifactId>
-      <version>3.3</version>
+      <artifactId>junit</artifactId>
+      <version>${avaje.junit.version}</version>
     </dependency>
 
-<!--    <dependency>-->
-<!--      <groupId>io.ebean</groupId>-->
-<!--      <artifactId>ebean-test</artifactId>-->
-<!--      <version>${ebean.version}</version>-->
-<!--    </dependency>-->
+    <dependency>
+      <groupId>io.avaje</groupId>
+      <artifactId>avaje-http-client</artifactId>
+      <version>${avaje.http.version}</version>
+    </dependency>
 
   </dependencies>
 

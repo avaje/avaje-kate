@@ -11,9 +11,6 @@
   <packaging>jar</packaging>
   <description>kate annotation processors</description>
 
-  <properties>
-  </properties>
-
   <dependencies>
 
     <dependency>
@@ -40,11 +37,11 @@
       <version>${avaje.jsonb.version}</version>
     </dependency>
 
-<!--    <dependency>-->
-<!--      <groupId>io.ebean</groupId>-->
-<!--      <artifactId>querybean-generator</artifactId>-->
-<!--      <version>${ebean.version}</version>-->
-<!--    </dependency>-->
+    <dependency>
+      <groupId>io.jstach</groupId>
+      <artifactId>jstachio-apt</artifactId>
+      <version>${jstachio.version}</version>
+    </dependency>
 
   </dependencies>
 
