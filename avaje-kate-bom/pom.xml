@@ -9,9 +9,9 @@
         <version>0.9.5</version>
     </parent>
 
-    <artifactId>kate-bom</artifactId>
-    <name>kate bom</name>
-    <description>ebean bill of materials pom</description>
+    <artifactId>avaje-kate-bom</artifactId>
+    <name>avaje kate bom</name>
+    <description>avaje kate bill of materials pom</description>
     <packaging>pom</packaging>
 
     <dependencyManagement>
@@ -22,6 +22,7 @@
                 <artifactId>slf4j-simple</artifactId>
                 <version>2.0.17</version>
             </dependency>
+
             <dependency>
                 <groupId>io.avaje</groupId>
                 <artifactId>avaje-applog-slf4j</artifactId>
@@ -77,38 +78,9 @@
             </dependency>
 
             <dependency>
-                <groupId>org.postgresql</groupId>
-                <artifactId>postgresql</artifactId>
-                <version>42.7.7</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>*</groupId>
-                        <artifactId>*</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-
-            <dependency>
-                <groupId>io.ebean</groupId>
-                <artifactId>ebean-datasource</artifactId>
-                <version>10.1</version>
-            </dependency>
-            <dependency>
-                <groupId>io.ebean</groupId>
-                <artifactId>ebean-postgres</artifactId>
-                <version>${ebean.version}</version>
-            </dependency>
-
-            <dependency>
                 <groupId>io.avaje</groupId>
                 <artifactId>mod-uuid</artifactId>
                 <version>1.3</version>
-            </dependency>
-
-            <dependency>
-                <groupId>io.ebean</groupId>
-                <artifactId>ebean-insight</artifactId>
-                <version>2.0-RC2</version>
             </dependency>
 
             <!-- Test dependencies -->
@@ -116,14 +88,14 @@
             <dependency>
                 <groupId>io.avaje</groupId>
                 <artifactId>avaje-inject-test</artifactId>
-                <version>11.5</version>
+                <version>${avaje.inject.version}</version>
                 <scope>test</scope>
             </dependency>
 
             <dependency>
                 <groupId>io.avaje</groupId>
                 <artifactId>avaje-jex-test</artifactId>
-                <version>2.5</version>
+                <version>${avaje.jex.version}</version>
                 <scope>test</scope>
             </dependency>
 
@@ -135,31 +107,12 @@
             </dependency>
 
             <dependency>
-                <groupId>io.ebean</groupId>
-                <artifactId>ebean-test-containers</artifactId>
-                <version>7.13</version>
-                <scope>test</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>io.ebean</groupId>
-                <artifactId>ebean-test</artifactId>
-                <version>${ebean.version}</version>
-                <scope>test</scope>
-            </dependency>
-
-            <dependency>
                 <groupId>io.avaje</groupId>
                 <artifactId>avaje-http-client</artifactId>
                 <version>${avaje-http.version}</version>
                 <scope>test</scope>
             </dependency>
 
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-core</artifactId>
-                <version>2.19.1</version>
-            </dependency>
         </dependencies>
     </dependencyManagement>
 

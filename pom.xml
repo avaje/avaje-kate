@@ -35,10 +35,10 @@
   </properties>
 
   <modules>
-    <module>kate</module>
-    <module>kate-apt</module>
-    <module>kate-test</module>
-    <module>kate-bom</module>
+    <module>avaje-kate</module>
+    <module>avaje-kate-generator</module>
+    <module>avaje-kate-test</module>
+    <module>avaje-kate-bom</module>
   </modules>
 
 </project>
