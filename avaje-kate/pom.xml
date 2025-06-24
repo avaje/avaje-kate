@@ -60,25 +60,6 @@
       <version>${avaje-metrics.version}</version>
     </dependency>
 
-<!--    <dependency>-->
-<!--      <groupId>io.avaje</groupId>-->
-<!--      <artifactId>avaje-jex-htmx</artifactId>-->
-<!--      <version>${avaje-jex.version}</version>-->
-<!--    </dependency>-->
-<!--    -->
-
-<!--    <dependency>-->
-<!--      <groupId>io.avaje</groupId>-->
-<!--      <artifactId>avaje-jex-static-content</artifactId>-->
-<!--      <version>${avaje-jex.version}</version>-->
-<!--    </dependency>-->
-
-<!--    <dependency>-->
-<!--      <groupId>io.jstach</groupId>-->
-<!--      <artifactId>jstachio</artifactId>-->
-<!--      <version>${jstachio.version}</version>-->
-<!--    </dependency>-->
-
 
   </dependencies>
 

@@ -26,7 +26,7 @@
     <avaje.config.version>4.1</avaje.config.version>
     <avaje.inject.version>11.5</avaje.inject.version>
     <avaje.http.version>3.3</avaje.http.version>
-    <avaje.jex.version>2.5</avaje.jex.version>
+    <avaje.jex.version>3.2</avaje.jex.version>
     <avaje.jsonb.version>3.5</avaje.jsonb.version>
     <avaje.junit.version>1.6</avaje.junit.version>
     <avaje-metrics.version>9.6</avaje-metrics.version>
@@ -39,6 +39,7 @@
     <module>avaje-kate-generator</module>
     <module>avaje-kate-test</module>
     <module>avaje-kate-bom</module>
+    <module>avaje-kate-htmx</module>
   </modules>
 
 </project>
