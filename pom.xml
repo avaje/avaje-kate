@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.avaje</groupId>
     <artifactId>java11-oss</artifactId>
-    <version>3.8</version>
+    <version>5.1</version>
   </parent>
 
   <groupId>io.avaje.kate</groupId>
@@ -20,12 +20,16 @@
   </scm>
 
   <properties>
+    <maven.compiler.release>21</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
     <avaje.config.version>2.0</avaje.config.version>
     <avaje.inject.version>8.4</avaje.inject.version>
     <avaje.http.version>1.17</avaje.http.version>
     <avaje.jex.version>2.2</avaje.jex.version>
     <avaje.jsonb.version>1.0-RC1</avaje.jsonb.version>
     <avaje.junit.version>1.1</avaje.junit.version>
+    <avaje-metrics.version>9.6</avaje-metrics.version>
     <ebean.version>13.6.3</ebean.version>
   </properties>
 
@@ -33,6 +37,7 @@
     <module>kate</module>
     <module>kate-apt</module>
     <module>kate-test</module>
+    <module>kate-bom</module>
   </modules>
 
 </project>
