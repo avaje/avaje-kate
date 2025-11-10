@@ -6,7 +6,7 @@
     <parent>
         <groupId>io.avaje.kate</groupId>
         <artifactId>test</artifactId>
-        <version>0.10</version>
+        <version>0.11</version>
     </parent>
 
     <artifactId>test-native</artifactId>
@@ -20,13 +20,13 @@
         <dependency>
             <groupId>io.avaje.kate</groupId>
             <artifactId>avaje-kate</artifactId>
-            <version>0.10</version>
+            <version>0.11</version>
         </dependency>
 
         <dependency>
             <groupId>io.avaje.kate</groupId>
             <artifactId>avaje-kate-test</artifactId>
-            <version>0.10</version>
+            <version>0.11</version>
             <scope>test</scope>
         </dependency>
 
