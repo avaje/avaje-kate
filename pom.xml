@@ -26,7 +26,7 @@
 
     <avaje.config.version>5.0</avaje.config.version>
     <avaje.inject.version>12.2</avaje.inject.version>
-    <avaje.http.version>3.6</avaje.http.version>
+    <avaje.http.version>3.7</avaje.http.version>
     <avaje.jex.version>3.3</avaje.jex.version>
     <avaje.jsonb.version>3.9</avaje.jsonb.version>
     <avaje.junit.version>1.7</avaje.junit.version>
