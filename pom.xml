@@ -24,7 +24,7 @@
     <maven.compiler.release>11</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-    <avaje.config.version>5.0</avaje.config.version>
+    <avaje.config.version>5.1</avaje.config.version>
     <avaje.inject.version>12.3</avaje.inject.version>
     <avaje.http.version>3.7</avaje.http.version>
     <avaje.jex.version>3.4</avaje.jex.version>
