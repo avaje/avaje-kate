@@ -1,3 +1,11 @@
 *.iml
 .idea
 target
+.project
+*.prefs
+avaje-revres-generator/.classpath
+avaje-revres-generator/.factorypath
+avaje-revres-htmx/.classpath
+avaje-revres-test/.classpath
+avaje-revres/.classpath
+test/test-native/.classpath
