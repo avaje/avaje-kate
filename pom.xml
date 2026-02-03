@@ -9,14 +9,14 @@
     <version>5.1</version>
   </parent>
 
-  <groupId>io.avaje.kate</groupId>
-  <artifactId>avaje-kate-parent</artifactId>
-  <name>avaje-kate-parent</name>
+  <groupId>io.avaje.revres</groupId>
+  <artifactId>avaje-revres-parent</artifactId>
+  <name>avaje-revres-parent</name>
   <version>0.11</version>
   <packaging>pom</packaging>
 
   <scm>
-    <developerConnection>scm:git:git@github.com:avaje/avaje-kate.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:avaje/avaje-revres.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
@@ -35,11 +35,11 @@
   </properties>
 
   <modules>
-    <module>avaje-kate</module>
-    <module>avaje-kate-generator</module>
-    <module>avaje-kate-test</module>
-    <module>avaje-kate-bom</module>
-    <module>avaje-kate-htmx</module>
+    <module>avaje-revres</module>
+    <module>avaje-revres-generator</module>
+    <module>avaje-revres-test</module>
+    <module>avaje-revres-bom</module>
+    <module>avaje-revres-htmx</module>
   </modules>
 
   <profiles>
