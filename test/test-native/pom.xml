@@ -43,7 +43,7 @@
                         <path>
                             <groupId>io.avaje.revres</groupId>
                             <artifactId>avaje-revres-generator</artifactId>
-                            <version>0.10</version>
+                            <version>0.11</version>
                         </path>
                     </annotationProcessorPaths>
                 </configuration>
