@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>io.avaje.revres</groupId>
+    <artifactId>avaje-revres-parent</artifactId>
+    <version>0.11</version>
+  </parent>
+
+  <artifactId>avaje-revres-generator</artifactId>
+  <name>avaje-revres-generator</name>
+  <description>avaje revres annotation processors</description>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>io.avaje</groupId>
+      <artifactId>avaje-inject-generator</artifactId>
+      <version>${avaje.inject.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.avaje</groupId>
+      <artifactId>avaje-http-jex-generator</artifactId>
+      <version>${avaje.http.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.avaje</groupId>
+      <artifactId>avaje-http-client-generator</artifactId>
+      <version>${avaje.http.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.avaje</groupId>
+      <artifactId>avaje-jsonb-generator</artifactId>
+      <version>${avaje.jsonb.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.jstach</groupId>
+      <artifactId>jstachio-apt</artifactId>
+      <version>${jstachio.version}</version>
+    </dependency>
+
+  </dependencies>
+
+</project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>io.avaje.revres</groupId>
+    <artifactId>avaje-revres-parent</artifactId>
+    <version>0.11</version>
+  </parent>
+
+  <artifactId>avaje-revres-test</artifactId>
+  <name>avaje-revres-test</name>
+  <description>revres test dependencies</description>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>io.avaje</groupId>
+      <artifactId>avaje-inject-test</artifactId>
+      <version>${avaje.inject.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.avaje</groupId>
+      <artifactId>avaje-jex-test</artifactId>
+      <version>${avaje.jex.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.avaje</groupId>
+      <artifactId>junit</artifactId>
+      <version>${avaje.junit.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.avaje</groupId>
+      <artifactId>avaje-http-client</artifactId>
+      <version>${avaje.http.version}</version>
+    </dependency>
+
+  </dependencies>
+
+</project>
