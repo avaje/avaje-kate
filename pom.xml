@@ -24,10 +24,10 @@
     <maven.compiler.release>11</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-    <avaje.config.version>5.1</avaje.config.version>
+    <avaje.config.version>5.2</avaje.config.version>
     <avaje.inject.version>12.6</avaje.inject.version>
     <avaje.http.version>3.9</avaje.http.version>
-    <avaje.jex.version>3.5</avaje.jex.version>
+    <avaje.jex.version>3.6</avaje.jex.version>
     <avaje.jsonb.version>3.14</avaje.jsonb.version>
     <avaje.junit.version>1.8</avaje.junit.version>
     <avaje-metrics.version>9.15</avaje-metrics.version>
